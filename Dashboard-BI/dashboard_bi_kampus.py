@@ -144,10 +144,10 @@ fig.text(
     fontsize=9, color="#52627a"
 )
 
-plt.savefig(
-    "dashboard_bi_kampus.png",
-    dpi=160,
-    bbox_inches="tight"
-)
+# plt.savefig(
+#     "dashboard_bi_kampus.png",
+#     dpi=160,
+#     bbox_inches="tight"
+# )
 
-plt.show()
+st.pyplot(fig)
